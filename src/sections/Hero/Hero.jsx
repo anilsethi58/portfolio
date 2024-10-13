@@ -40,7 +40,7 @@ function Hero() {
           <br />
           SETHI
         </h1>
-        <h2>Web Developer</h2>
+        <h2>Web Developer, Python Developer</h2>
         <span>
           <a href="https://x.com/AnilSethi440504" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
