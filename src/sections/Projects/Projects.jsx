@@ -1,6 +1,6 @@
 import styles from './ProjectsStyles.module.css';
 import Gallery from '../../assets/Gallery.jpeg';
-import freshBurger from '../../assets/fresh-burger.png';
+import AiAssistant from '../../assets/ai-assistant.png';
 import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
@@ -12,17 +12,17 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={Gallery}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/anilsethi58/Gallery.git"
           h3="Gallery"
           p="Photo Storage"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={AiAssistant}
+          link="https://github.com/anilsethi58/GeminiApp.git"
+          h3="Gemini Ai"
+          p="React Gemini Assistant"
         />
-        <ProjectCard
+        {/* <ProjectCard
           src={hipsster}
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="Hipsster"
@@ -33,7 +33,7 @@ function Projects() {
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="FitLift"
           p="Fitness App"
-        />
+        /> */}
       </div>
     </section>
   );

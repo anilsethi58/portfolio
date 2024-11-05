@@ -8,7 +8,6 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import CV from "../../assets/C_V.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -40,7 +39,7 @@ function Hero() {
           <br />
           SETHI
         </h1>
-        <h2>Web Developer, Python Developer</h2>
+        <h2>Web Developer , Python Developer</h2>
         <span>
           <a href="https://x.com/AnilSethi440504" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
@@ -73,9 +72,8 @@ function Hero() {
             </svg>
           </a>
         </span>
-        <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+        <p >
+          With a passion for developing modern Website web apps for commercial <br />businesses.
         </p>
         <a
           href="https://drive.google.com/drive/folders/18XHDcaWVsKR-Vtc8y5bmYSGCLV7MyPNU?usp=sharing"
@@ -83,6 +81,16 @@ function Hero() {
         >
           <button className="hover">Resume</button>
         </a>
+        <div className="about">
+        <h2 >About</h2>
+
+          <p>
+          Software Developer with 6 months of practical experience in Python and Django through internships. Bachelor's 
+          degree in Computer Science and Engineering,Highly motivated to drive innovation, embrace new technologies, 
+          and tackle new challenges in a dynamic team environment.Eagerly awaiting the opportunity to shine in my next role
+          </p>
+
+        </div>
       </div>
     </section>
   );
